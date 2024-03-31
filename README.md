@@ -50,7 +50,7 @@ Weighted pair-group average clustering based on a distance matrix:
          42.3344   34.3131   26.2919   18.2706   10.2494    2.2281
 
 ```
-- i did the alignement with the 'align2d.py' file 
+- i did the alignement with the 'align2d.py' file and choose the best template ( based on the  better crystallographic resolution)
 - After establishing a target-template alignment, MODELLER automatically generates a 3D model of the target using its AutoModel class, streamlining the process without manual intervention.
 following script will generate five similar models based on the template and the alignment in file it will generate5 models
 execute the the 'evaluate_model.py'
