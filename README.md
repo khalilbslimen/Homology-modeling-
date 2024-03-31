@@ -12,7 +12,7 @@ pymol : 3
 - uniprot (https://www.uniprot.org/)
 - BLAST (https://blast.ncbi.nlm.nih.gov/Blast.cgi)
 ## Process
-first I set up my file with the 6 template I choose from a BLAST and choose 6 of the must identical percentage with my target sequence and placed in the bin file of modeller directory 
+- first I set up my file with the 6 template I choose from a BLAST and choose 6 of the must identical percentage with my target sequence and placed in the bin file of modeller directory 
 Your workspace should look like this:
 ```
 .
@@ -28,7 +28,8 @@ Your workspace should look like this:
 ├── model_single.py
 └── P29957.ali
 ```
-- Start automated modelling with the `compare.py` to generates the `compare.log` file with the comparisons
+### Script usage
+- Start automated modelling with the `compare.py` to generate the `compare.log` file with the comparisons
 ```
 Weighted pair-group average clustering based on a distance matrix:
 
