@@ -28,7 +28,7 @@ Your workspace should look like this:
 ├── model_single.py
 └── P29957.ali
 ```
-- start automated modelling with the `compare.py` to generat the `ompare.log` file with the comparaison 
+- start automated modelling with the `compare.py` to generat the `compare.log` file with the comparaison 
 ```
 Weighted pair-group average clustering based on a distance matrix:
 
