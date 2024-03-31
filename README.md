@@ -9,8 +9,8 @@ Modeller : 10.5
 pymol : 3
 ```
 ### database
--uniprot (https://www.uniprot.org/)
--BLAST (https://blast.ncbi.nlm.nih.gov/Blast.cgi)
+- uniprot (https://www.uniprot.org/)
+- BLAST (https://blast.ncbi.nlm.nih.gov/Blast.cgi)
 ## Process
 first i set up my file with the 6 template i choosen from an BLAST and choose 6 of the must identical pourcentage with my trguet sequence and placed in the bin file of modeller directory  
 Your workspace should look like this:
