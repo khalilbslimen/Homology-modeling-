@@ -2,8 +2,8 @@ from modeller import *
 
 env = Environ()
 aln = Alignment(env)
-for (pdb, chain) in (('1hx0', 'A'), ('1pif', 'A'), ('1ua3', 'A'),
-                     ('1vah', 'A'), ('3l2l', 'A'), ('8orp', 'A')):
+for (pdb, chain) in (('template1', 'A'), ('template2', 'A'), ('template3', 'A'),
+                     ('template4', 'A'), ('template5', 'A'), ('template6', 'A')):
     m = Model(env, file=pdb, model_segment=('FIRST:'+chain, 'LAST:'+chain))
     aln.append_model(m, atom_files=pdb, align_codes=pdb+chain)
 aln.malign()
